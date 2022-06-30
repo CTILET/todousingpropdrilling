@@ -1,0 +1,60 @@
+.registerBar {
+  position: fixed;
+  left: -5px;
+  align-items: center;
+  width: 235px;
+  background-color: #928f8f;
+  border-bottom: 1px solid #e5e5e5;
+  top: 3px;
+  border-radius: 10px;
+  margin: 0 5px 0 5.5px;
+  padding: 10px;
+}
+.registerBar > label {
+  width: 100%;
+  text-align: center;
+  margin: 2px;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #f5f5f5;
+  margin-bottom: 10px;
+}
+
+.registerBar > input {
+  border: solid 2px #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.3s #504a4a;
+  outline: none;
+  
+ 
+}
+.registerBar > input:hover {
+  border-color: #5c5b54ad;
+}
+.registerBtn {
+  max-width: 210px;
+  margin: 3px 0 0 0;
+}
+.registerBtn > button {
+  margin: 3px 0 0 3px;
+  width: 100%;
+  border: solid 2px #312424;
+  background-color: #534b4b;
+  color: #fbf2f2;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.registerBtn > button:hover {
+  background-color: #cecdcd;
+  color: #000000;
+}
+
+.container .progress-bar {
+  display: flex;
+  margin: 40px 0;
+  
+}
